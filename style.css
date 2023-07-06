@@ -36,3 +36,14 @@ h1{
         opacity: 1;
     }
 }
+
+@keyframes backSlide{
+    from{
+        left: 450px;
+        opacity: 1;
+    }
+    to{
+        left: -100px;
+        opacity: 0;
+    }
+}
